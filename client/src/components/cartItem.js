@@ -11,12 +11,10 @@ class CartItem extends Component{
 
     onAddByOneToCart = () => {
         this.props.addByOneToCart(this.props.cartItem);
-        window.location.reload();
     }
 
     onReduceByOneFromCart = () => {
         this.props.reduceByOneFromCart(this.props.cartItem);
-        window.location.reload();
     }
 
     onRemoveFromCart = () => {
